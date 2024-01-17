@@ -5,12 +5,29 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hw12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     
     <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-89feecc5.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-eb6030bc.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-9a01078e.css">
   </head>
   <body>
-<h1>HW12</h1>
 
+    <form class="search-form" autocomplete="off">
+      <input type="text" placeholder="Search images..." name="searchText">
+      <input type="submit" value="Search">
+    </form>
+
+
+    <ul class="gallery"></ul>
+    <div class="load-more-container">
+      <button class="load-more-button">Load more</button>
+    </div>
+    <div class="loader-container">
+    <span class="loader"></span></div>
     
   </body>
 </html>
