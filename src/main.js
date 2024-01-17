@@ -87,6 +87,7 @@ loadMoreButton.addEventListener('click', async () => {
 })
 
 async function loadFromPixabay(search, page){
+    loadMoreButton.style.display = "none";
     loader.style.display = 'block';
     return await axios({
         method: 'get',
